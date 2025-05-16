@@ -1,6 +1,19 @@
 // Carregando funções do Bootstrap
 @import "../../node_modules/bootstrap/scss/functions";
 
+// sobscrever váriaveis aqui
+
+// cor principal dos botões
+$primary: #1ED760;
+// cor dos meus inputs
+$secondary: #585858;
+
+// cor dos cards na home
+$bg-body-tertiary: #292929;
+// cor de fundo da tela
+$bg-body: #121212;
+
+
 // Outros imports do Bootstrap (se necessário)
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/mixins";
