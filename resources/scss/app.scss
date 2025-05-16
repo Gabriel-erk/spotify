@@ -1,8 +1,11 @@
 // Carregando funções do Bootstrap
 @import "../../node_modules/bootstrap/scss/functions";
-
+// chamando minha fonte
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 // !!sobscrever váriaveis aqui
 
+// alterando a fonte padrão do bootstrap
+$font-family-base: 'Poppins', sans-serif;
 // cor principal dos botões
 $primary: #1ED760;
 // cor dos meus inputs
