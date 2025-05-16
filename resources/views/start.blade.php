@@ -7,8 +7,8 @@
     <title>Spotify</title>
 </head>
 <body>
-    <div class="container">
-        <img src="{{ asset('') }}" alt="">
+    <div class="container bg-body">
+        <img src="{{ asset('assets/images/logo.png') }}" alt="Logo do Spotify">
     </div>
 </body>
 </html>
