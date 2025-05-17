@@ -1,7 +1,8 @@
 <x-layout title="Spotify - Login">
-    <div id="corpo">
+    <div class="px-4 col-12 col-md-6 col-lg-4 mx-auto">
+
         <div class="d-flex justify-content-center my-5">
-            <img src="{{ asset('assets/images/logo.png') }}" class="vw-50" alt="Logo do Spotify">
+            <img src="{{ asset('assets/images/logo.png') }}" class="logo" alt="Logo do Spotify">
         </div>
 
         <form action="">
@@ -26,4 +27,5 @@
             </a>
         </div>
     </div>
+
 </x-layout>

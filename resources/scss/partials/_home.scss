@@ -1,7 +1,7 @@
 // css da tela de login e cadastro
 
 // vai atingir o celular
-img {
+.logo img {
     width: 50vw;
 }
 
@@ -15,17 +15,6 @@ img {
 /* Desktop */
 @media (min-width: 1025px) {
     img {
-        width: 10vw;
+        width: 15vw;
     }
-}
-
-#corpo {
-    background: linear-gradient(
-        to bottom,
-        url("/public/assets/images/bg2.jpg") 0%,
-        rgba(8, 8, 8, 0.6) 46%,
-        rgba(18, 18, 18, 1) 100%
-    );
-    background-size: cover;
-    background-repeat: no-repeat;
 }

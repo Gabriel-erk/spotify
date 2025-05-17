@@ -1,10 +1,11 @@
 <x-layout title="Spotify - Cadastro">
-    <div class="d-flex justify-content-center my-5">
-        <img src="{{ asset('assets/images/logo.png') }}" alt="Logo do Spotify" style="width: 50vw">
-    </div>
+    {{-- px-4 e col-12 mais para os celulares, col-md-6 para tablets col-lg-4 para desktop e mx-auto para centraliza-los quando juntos a grid  --}}
+    <div class="px-4 col-12 col-md-6 col-lg-4 mx-auto">
 
-    <div>
-       <h1>teste</h1>
+        <div class="d-flex justify-content-center my-5">
+            <img src="{{ asset('assets/images/logo.png') }}" class="logo" alt="Logo do Spotify">
+        </div>
+
         <form action="">
             <div class="mb-4">
                 <input type="text" class="form-control bg-secondary fw-medium border border-0" id="nome"
@@ -22,12 +23,15 @@
             </div>
 
             <div class="mb-4">
-                <button class="btn btn-primary fw-bold w-100">Cadastrar</button>
+                <button class="btn btn-primary w-100">Cadastrar</button>
             </div>
 
         </form>
-        <a href="{{ route('login') }}" class="text-decoration-none">
-            <p class="text-white fw-bold text-center fw-medium ">Já possui login? Faça o login</p>
-        </a>
+        <div class="text-center">
+            <a href="{{ route('login') }}" class="text-decoration-none text-white">
+                Já possui login? Faça o login
+            </a>
+        </div>
     </div>
+
 </x-layout>

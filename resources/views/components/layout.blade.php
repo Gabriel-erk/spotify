@@ -8,7 +8,7 @@
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 </head>
 <body class="bg-body">
-    <main class="container">
+    <main>
         {{ $slot }}
     </main>
 </body>
