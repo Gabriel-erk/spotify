@@ -16,12 +16,14 @@
             </div>
 
             <div class="mb-4">
-                <button class="btn btn-primary fw-bold w-100">Acessar</button>
+                <button class="btn btn-primary w-100">Acessar</button>
             </div>
 
         </form>
-        <a href="{{ route('cadastro') }}" class="text-decoration-none">
-            <p class="text-white fw-bold text-center fw-medium ">Ainda não possui conta? Cadastre-se</p>
-        </a>
+        <div class="text-center">
+            <a href="{{ route('cadastro') }}" class="text-decoration-none text-white">
+                Ainda não possui conta? Cadastre-se
+            </a>
+        </div>
     </div>
 </x-layout>

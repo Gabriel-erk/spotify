@@ -1,5 +1,7 @@
 // Carregando funções do Bootstrap
 @import "../../node_modules/bootstrap/scss/functions";
+// chamando minhas configurações de tipografia
+@import "partials/typography";
 // !!sobscrever váriaveis aqui
 
 // alterando a fonte padrão do bootstrap

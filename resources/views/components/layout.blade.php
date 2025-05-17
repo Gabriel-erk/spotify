@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{$title}}</title>
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
-    @vite(['resources/scss/partials/typography.scss'])
 </head>
 <body class="bg-body">
     <main class="container">
