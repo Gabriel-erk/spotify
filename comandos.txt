@@ -1,0 +1,46 @@
+LINKS
+
+text-decoration-none
+
+LISTA
+
+list-unstyled
+
+TEXTO
+
+text-white
+text-center
+
+ESPAÇAMENTO
+
+gap-3 (funciona com o grid e o flex)
+mx-auto (funciona com o grid)
+m-5
+p-5
+
+ARREDONDAMENTO
+
+<img src="..." class="rounded-0" alt="...">
+<img src="..." class="rounded-1" alt="...">
+<img src="..." class="rounded-2" alt="...">
+<img src="..." class="rounded-3" alt="...">
+<img src="..." class="rounded-4" alt="...">
+<img src="..." class="rounded-5" alt="...">
+<img src="..." class="rounded-circle" alt="...">
+<img src="..." class="rounded-pill" alt="...">
+
+rounded
+
+FLEX
+
+d-flex
+flex-column
+justify-content-center
+align-items-center
+
+GRID
+
+row
+col-12 (atinge mobile)
+col-md-6 (atinge tablets)
+col-lg-4 (atinge desktops)
