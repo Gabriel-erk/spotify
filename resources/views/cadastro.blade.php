@@ -18,7 +18,7 @@
         <div>
             <form action="">
                 <div class="mb-4">
-                    <input type="text" class="form-control bg-secondary fw-medium border border-0" id="nome" placeholder="Digite o seu nome">
+                    <input type="text" class="form-control bg-secondary fw-medium border border-0" id="nome" placeholder="Digite o seu nome" >
                 </div>
 
                 <div class="mb-4">
@@ -27,7 +27,7 @@
                 </div>
 
                 <div class="mb-4">
-                    <input type="password" id="password" class="form-control bg-secondary fw-medium  border border-0" aria-describedby="passwordHelpBlock">
+                    <input type="password" id="password" class="form-control bg-secondary fw-medium  border border-0" aria-describedby="passwordHelpBlock" placeholder="*********">
                 </div>
 
                 <div class="mb-4">
