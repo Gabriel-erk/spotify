@@ -1,0 +1,31 @@
+// css da tela de login e cadastro
+
+// vai atingir o celular
+img {
+    width: 50vw;
+}
+
+// Tablet (768px a 1024px)
+@media (min-width: 768px) and (max-width: 1024px) {
+    img {
+        width: 25vw;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    img {
+        width: 10vw;
+    }
+}
+
+#corpo {
+    background: linear-gradient(
+        to bottom,
+        url("/public/assets/images/bg2.jpg") 0%,
+        rgba(8, 8, 8, 0.6) 46%,
+        rgba(18, 18, 18, 1) 100%
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,9 +1,9 @@
 <x-layout title="Spotify - Login">
-    <div class="d-flex justify-content-center my-5">
-        <img src="{{ asset('assets/images/logo.png') }}" alt="Logo do Spotify" style="width: 50vw">
-    </div>
+    <div id="corpo">
+        <div class="d-flex justify-content-center my-5">
+            <img src="{{ asset('assets/images/logo.png') }}" class="vw-50" alt="Logo do Spotify">
+        </div>
 
-    <div>
         <form action="">
             <div class="mb-4">
                 <input type="email" class="form-control bg-secondary fw-medium  border border-0" id="email"
