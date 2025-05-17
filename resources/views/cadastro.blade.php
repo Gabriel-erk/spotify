@@ -18,16 +18,16 @@
         <div>
             <form action="">
                 <div class="mb-4">
-                    <input type="text" class="form-control" id="nome" placeholder="Digite o seu nome">
+                    <input type="text" class="form-control bg-secondary fw-medium border border-0" id="nome" placeholder="Digite o seu nome">
                 </div>
 
                 <div class="mb-4">
-                    <input type="email" class="form-control" id="email"
+                    <input type="email" class="form-control bg-secondary fw-medium  border border-0" id="email"
                         placeholder="Digite o seu e-mail">
                 </div>
 
                 <div class="mb-4">
-                    <input type="password" id="password" class="form-control" aria-describedby="passwordHelpBlock">
+                    <input type="password" id="password" class="form-control bg-secondary fw-medium  border border-0" aria-describedby="passwordHelpBlock">
                 </div>
 
                 <div class="mb-4">
@@ -36,7 +36,7 @@
 
             </form>
             <a href="#" class="text-decoration-none">
-                <p class="text-white fw-bold text-center">Já possui login? Faça o login</p>
+                <p class="text-white fw-bold text-center fw-medium ">Já possui login? Faça o login</p>
             </a>
         </div>
     </main>
