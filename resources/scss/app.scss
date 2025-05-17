@@ -23,7 +23,5 @@ $body-bg: #121212;
 // Importando componentes do Bootstrap (depois das variáveis)
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-// importando meus arquivos personalizados
-@import "partials/typography";
 // chamando minha fonte
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
