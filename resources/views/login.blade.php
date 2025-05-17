@@ -20,7 +20,7 @@
             </div>
 
         </form>
-        <a href="#" class="text-decoration-none">
+        <a href="{{ route('cadastro') }}" class="text-decoration-none">
             <p class="text-white fw-bold text-center fw-medium ">Ainda não possui conta? Cadastre-se</p>
         </a>
     </div>

@@ -26,7 +26,7 @@
             </div>
 
         </form>
-        <a href="#" class="text-decoration-none">
+        <a href="{{ route('login') }}" class="text-decoration-none">
             <p class="text-white fw-bold text-center fw-medium ">Já possui login? Faça o login</p>
         </a>
     </div>
