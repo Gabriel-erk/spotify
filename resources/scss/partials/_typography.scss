@@ -1,0 +1,48 @@
+// escala modular do site em mobile e desktop
+// !! tamanhos das fontes estão correspondentes aos tamanhos do figma
+
+/* 
+    * 1 parâmetro: tamanho mínimo da fonte (geralmente em telas menores)
+    * 3 parâmetro: tamanhho máximo da fonte  (geralmente em telas maiores, desktop)
+    * 2 parâmetro: fórmula para aumento da fonte entre mínimo e máximo (variar dependendo do elemento)
+*/
+$h1-font-size: clamp(2.5rem, 5vw + 1rem, 3rem) !default;
+$h2-font-size: clamp(2rem, 4vw + 1rem, 2.5rem) !default;
+$h3-font-size: clamp(1.75rem, 3vw + 1rem, 2rem) !default;
+$body-font-size: clamp(1rem, 2vw + 1rem, 1.125rem) !default;
+$small-font-size: clamp(0.875rem, 2vw + 0.5rem, 1rem) !default;
+$button-font-size: clamp(1rem, 2vw + 1rem, 1.125rem) !default;
+
+/* Escala Tipográfica para o Projeto Spotify */
+
+h1 {
+    font-size: $h1-font-size;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: $h2-font-size;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: $h3-font-size;
+    font-weight: 500;
+}
+
+p {
+    font-size: $body-font-size;
+    font-weight: 400;
+}
+
+small,
+span {
+    font-size: $small-font-size;
+    font-weight: 300;
+}
+
+button,
+a {
+    font-size: $button-font-size;
+    font-weight: 500;
+}

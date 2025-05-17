@@ -1,7 +1,5 @@
 // Carregando funções do Bootstrap
 @import "../../node_modules/bootstrap/scss/functions";
-// chamando minha fonte
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 // !!sobscrever váriaveis aqui
 
 // alterando a fonte padrão do bootstrap
@@ -22,6 +20,10 @@ $body-bg: #121212;
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/variables-dark";
 @import "../../node_modules/bootstrap/scss/mixins";
-
 // Importando componentes do Bootstrap (depois das variáveis)
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+// importando meus arquivos personalizados
+@import "partials/typography";
+// chamando minha fonte
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
